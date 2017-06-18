@@ -1,0 +1,27 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ArenaTactics/Battle/Vision.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ArenaTactics/Battle/Action/ActionParam/ActionOption/SpellSlotOption.cs" Line="22" Column="26" />
+      <File FileName="Assets/Scripts/ArenaTactics/Character/Sheet/Spell/SpellLibrary.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ArenaTactics/Battle/Actor/ActorScripts/CharacterCastingAnimation.cs" Line="42" Column="25" />
+      <File FileName="Assets/Scripts/ArenaTactics/Character/Sheet.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ArenaTactics/Battle/FX/MissileScript.cs" Line="100" Column="52" />
+      <File FileName="Assets/Scripts/ArenaTactics/UI/CustomCursor.cs" Line="12" Column="30" />
+      <File FileName="Assets/Scripts/ArenaTactics/UI/HUD/ActionBar.cs" Line="477" Column="14" />
+      <File FileName="Assets/Scripts/ArenaTactics/UI/Input/OptButton.cs" Line="11" Column="13" />
+      <File FileName="Assets/Scripts/ArenaTactics/UI/TitleScreenManager.cs" Line="171" Column="35" />
+      <File FileName="Assets/Scripts/ArenaTactics/Character/FeatureBundle/ClassLevel5e.cs" Line="230" Column="38" />
+      <File FileName="Assets/Scripts/ArenaTactics/Character/Feature/Class/Wizard.cs" Line="1" Column="3" />
+      <File FileName="Assets/Scripts/ArenaTactics/Battle/Action/Cast.cs" Line="18" Column="48" />
+      <File FileName="Assets/Scripts/ArenaTactics/Character/Feature/SpellSlotFeature.cs" Line="29" Column="26" />
+      <File FileName="Assets/Scripts/AnimationHooks/CharacterWalker.cs" Line="94" Column="23" />
+      <File FileName="Assets/Scripts/AnimationHooks/TileMovement.cs" Line="173" Column="18" />
+      <File FileName="Assets/Scripts/ArenaTactics/Battle/Vision.cs" Line="77" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{AF2D5826-A482-5498-0344-3E2DB30197DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity_5.5.2f/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity_5.5.2f/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AmbientSoundLooper.cs" />
+     <Compile Include="Assets\CameraDragHandle.cs" />
+     <Compile Include="Assets\CharacterConditionIndication.cs" />
+     <Compile Include="Assets\CharacterGlow.cs" />
+     <Compile Include="Assets\CharacterIndicator.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Extra\Tileset - Samples\Kenneys - Rogue Like\RogueLikeMapGenerator.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Data\ParameterContainer.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\A2X2Brush.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\AnimBrush.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\BrushBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\BrushUtil.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\CarpetBrush.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\IBrush.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\RandomBrush.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\RoadBrush.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Brush\TilesetBrush.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\EditorGlobalSettings.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\SortingLayerAttribute.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\TileObjMesh.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\TileObjectBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Tilemap.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\TilemapChunk.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\TilemapChunk_Collider.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\TilemapChunk_Renderer.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\TilemapChunk_TileObjFactory.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\TilemapGroup.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Tilemap\Tileset.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Utils\EditorUtils.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Utils\GizmosEx.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Utils\HandlesEx.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Utils\TilemapDrawingUtils.cs" />
+     <Compile Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Scripts\Utils\TilemapUtils.cs" />
+     <Compile Include="Assets\CrowdSounds.cs" />
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\MusicManager.cs" />
+     <Compile Include="Assets\Scripts\AnimationHooks\AnimationListener.cs" />
+     <Compile Include="Assets\Scripts\AnimationHooks\AnimationTransform.cs" />
+     <Compile Include="Assets\Scripts\AnimationHooks\AttackingAnimation.cs" />
+     <Compile Include="Assets\Scripts\AnimationHooks\CharacterWalker.cs" />
+     <Compile Include="Assets\Scripts\AnimationHooks\TileMovement.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\AI\AiController.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\AI\AiController\MeleeAttacker.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\AI\AiState.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\AI\AiState\Attacking.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\AI\AiState\Camping.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\AI\AiState\FindingBestTarget.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\AI\AiState\MovingToPosition.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\AI\AiState\SeekingTarget.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionOption.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionOption\AttackTypeOption.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionOption\EquipmentSlotTypeOption.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionOption\ItemPickupOption.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionOption\ItemsOnPersonOption.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionOption\SpellClassOption.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionOption\SpellOption.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionOption\SpellSlotOption.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\ActionParam\ActionTargetTileParameter.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Attack.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Cast.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Dash.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Dodge.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Interactions\DropItem.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Interactions\Equip.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Interactions\GiveItem.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Interactions\PickUp.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Interactions\Unequip.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Move.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Special\SecondWindAction.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Action\Wait.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor\ActorScripts\CharacterAttacker.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor\ActorScripts\CharacterBehaviorLogging.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor\ActorScripts\CharacterCastingAnimation.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor\ActorScripts\CharacterSoundProducer.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor\ActorScripts\ClearTilemapBehind.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor\ActorScripts\DamageFXRenderer.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor\AiControlledActor.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Actor\PlayerControlledActor.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\BattleManager.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\CameraController.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\FX\ConditionIndicator.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\FX\FadeText.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\FX\MissileScript.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\FX\SpriteFadeEffect.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\FX\VisibilityToPlayer.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseController.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseState.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseStates\ActionTargetTileChoice.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseStates\BattleBegin.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseStates\BattleEnd.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseStates\CharacterAction.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseStates\CharacterTurnBegin.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseStates\CharacterTurnEnd.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseStates\InventoryInteractionPhase.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Phase\PhaseStates\RoundBegin.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Battle\Vision.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Condition.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Condition\Dashing.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Condition\Dodging.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Condition\DualWieldAttacking.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Condition\Necrosis.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Condition\Shocked.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Dispenser\EquipmentAnimationDispenser.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Dispenser\FXPrefabs.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Dispenser\IconDispenser.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Dispenser\MissileAnimationPrefabDispenser.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Dispenser\UIPrefabs.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect\Effect\ConditionEffect.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect\Effect\Damage.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect\Effect\DelegateEffect.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect\Effect\GaugeEffect.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect\Effect\Healing.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect\Effect\PhysicalDamage.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect\Effect\SoundDispenser.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Effect\IEffect.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\EquipmentAnimation.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\ArmourProficiencyFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\Class\EquipmentKit\EquipmentKitFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\Class\EquipmentKit\KnightKit.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\Class\Fighter.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\Class\Wizard.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\GaugeMod.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\HitDiceFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\NonSerializedFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\PerLevelHitPoints.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\SaveProficiencyFeatrure.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\SkillProficiencyFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\SpellKnownFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\SpellPreparedFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\SpellSlotFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Feature\WeaponProficiencyFeature.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\FeatureBundle.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\FeatureBundle\ClassLevel5e.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\FeatureBundle\Race.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Proficiency.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\RuleApplications\AbilityCheckRules.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\RuleApplications\AttackRules.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\RuleApplications\SaveRules.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\Gauge.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\GaugeModifier.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\Inventory.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\Inventory\InventoryItem.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\Inventory\InventoryItem\Equipment.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\Inventory\InventoryItem\Equipment\Armour.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\Inventory\InventoryItem\Equipment\Weapon.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\PaperDoll.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\SheetKeyValue.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\Spell\SpellLibrary.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Character\Sheet\Spell\SpellPoolElement.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\ChecksAndContests\AttackSituation.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\ChecksAndContests\CheckSituation.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\ChecksAndContests\SaveSituation.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\ChecksAndContests\Situation.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Map\ATMap.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Map\ATTile.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Map\ClearWhenBehindGoesClearLayer.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Map\GoesTransparentTilemapLayer.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Map\GroundTilemapLayer.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Map\MapManager.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Map\TileInhabitant.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Map\TileMapLayer.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Serialization\SerializedObject.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\Serialization\SerializedWrapper.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCreationManager.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationContoller.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationController\CharacterCreationController.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationStep.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationStep\ChooseClass.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationStep\ChooseFromPoolOfFeatures.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationStep\ChooseName.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationStep\ChooseRace.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationStep\ConfirmCustomization.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CharacterCustomization\CharacterCustomizationStep\PointBuy.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CursorTexture.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\CustomCursor.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Encyplopedia\Tooltipable.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\HUD\ActionBar.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\HUD\BattleLog.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Input\DropdownInterface.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Input\NumberDial.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Input\OptButton.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Input\OptToggle.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Input\TextInput.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\AbilitiesDisplay.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\CharacterInventoryTab.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\CharacterInventoryTabs.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\CombatDisplay.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\EquipmentUISlot.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\FeaturesDisplay.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\InventoryDisplay.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\ItemSlot.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\PaperDollDisplay.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\ProficienciesDisplay.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\InventoryView\SavesDisplay.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\MaskLayer.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\TextElement.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\TitleScreenManager.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Tooltip.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\UIManager.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Window\GenericDialog.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Window\GenericFloatingWindow.cs" />
+     <Compile Include="Assets\Scripts\ArenaTactics\UI\Window\TextInputDialog.cs" />
+     <Compile Include="Assets\Scripts\Test\Model\TestGauge.cs" />
+     <Compile Include="Assets\Scripts\Test\Model\TestSerialization.cs" />
+     <Compile Include="Assets\Scripts\Test\TestDriver.cs" />
+     <Compile Include="Assets\Scripts\TestControls.cs" />
+     <Compile Include="Assets\Scripts\Util\StateMachine\Controller.cs" />
+     <Compile Include="Assets\Scripts\Util\StateMachine\State.cs" />
+     <Compile Include="Assets\Scripts\Util\UtilCamera.cs" />
+     <Compile Include="Assets\Scripts\Util\UtilEnum.cs" />
+     <Compile Include="Assets\Scripts\Util\UtilParadigm.cs" />
+     <Compile Include="Assets\Scripts\Util\UtilReflection.cs" />
+     <Compile Include="Assets\Scripts\Util\UtilString.cs" />
+     <Compile Include="Assets\Scripts\Util\UtilUnity.cs" />
+     <Compile Include="Assets\Shader\SpriteOutline.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\Core\EmitterBase.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\Core\EmitterBaseUI.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\Core\StaticSpriteEmitter.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\Core\StaticUIImageEmitter.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\DynamicEmitter.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\DynamicEmitterUI.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\StaticEmitterContinuous.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\StaticEmitterContinuousUI.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\StaticEmitterOneShot.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Code\UIParticleRenderer.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Demo\Others\MiniPanel.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Demo\Static Sprite Examples\Code\AimController.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Demo\Static Sprite Examples\Code\CameraLookAt.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Demo\Static Sprite Examples\Code\HeavyGunnerController.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Demo\UI Examples\UIExampleController.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\TestParticlesSprites.cs" />
+     <Compile Include="Assets\TileInfoPanel.cs" />
+     <Compile Include="Assets\TileSelector.cs" />
+     <Compile Include="Assets\TurnCue.cs" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle Premultiply Blend.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Sound\All\sheathing\attr.txt" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Sound\crowd\Atrribution.txt" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle Multiply.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle Add.shader" />
+     <None Include="Assets\Sound\crowd\Untitled.txt" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle MultiplyDouble.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Demo\Others\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle VertexLit Blended.shader" />
+     <None Include="Assets\Fonts\pt-mono\SIL Open Font License.txt" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle AddSmooth.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\Extra\Tileset - Samples\Tiled - Tmx Import\license.txt" />
+     <None Include="Assets\Fonts\lunchtime-doubly-so\license.txt" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle Alpha Blend.shader" />
+     <None Include="Assets\Sound\Damage\slashing\attribution.txt" />
+     <None Include="Assets\CreativeSpore_TileEditor\SuperTilemapEditor\changelog.txt" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle AddMultiply.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Demo\Others\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\SpriteParticleEmitter\UI Particles Shaders\UI Particle Blend.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Demo\Static Sprite Examples\Art\GlassStainedBumpDistortFede.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Sound\All\impact_sword\impact_attr.txt" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Fonts\manaspace\license.txt" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Shader\Sprite-Outline.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Demo\Others\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\SpriteParticleEmitter\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity_5.5.2f/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity_5.5.2f/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity_5.5.2f/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity_5.5.2f/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity_5.5.2f/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity_5.5.2f/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

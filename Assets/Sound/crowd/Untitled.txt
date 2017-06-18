@@ -1,0 +1,55 @@
+
+Which continents does this world have?
+  - A set of floating continents  (describe different environments)
+Which cities are there?
+  - Only ruins of past cities
+
+Who lives here?
+  - Creatures 
+
+Are there interesting landmarks?
+  - Temples, monuments
+
+What could spawn conflict in this world?
+  - Harsh environment
+  - Hostile Creatures
+  - Your staff seemingly with a will of its own.
+
+How did the nations come to their current form?
+  - A magical cataclysm broke apart a once thriving planet, leaving it as a set of floating islands
+
+What technologies exist? (magic? teleportation?)
+  - Magic, mana
+
+
+
+
+Characters:
+  - Life staff
+    - First staff you meet
+    - Life mechanical 
+    - Has an interest in finding, categorizing, and protecting life around you
+    - Interested in the idea of finding and preserving "balance".  Desires might include:
+       -Balancing out creature populations (too many predators/prey)
+  - Owlcat
+
+Questions at the end of prologue:
+- Who am I?
+- What am I doing?
+
+What do these (staff) missions do for you?
+
+
+By the end of prologue, we want the player to know/Convey the following:
+-That they were on a ship hibernating
+-That they met a talking staff
+-The wizard/avatar can cast spells somehow
+-The wizard has some hidden innate abilities/reflexes
+-The staff
+-A hint at the staff's intentions
+-Saved the owlcat
+-The staff didn't want them to save the owlcat (hint to intentions)?
+-That you got to safety
+-You are now reading the book
+
+
